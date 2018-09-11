@@ -18,8 +18,9 @@ const (
 	LOG_LEVEL_OFF     = 0
 	LOG_LEVEL_FATAL   = 1
 	LOG_LEVEL_WARNING = 2
-	LOG_LEVEL_TRACE   = 3
+	LOG_LEVEL_INFO    = 3
 	LOG_LEVEL_DEBUG   = 4
+	LOG_LEVEL_TRACE   = 5
 )
 
 type LoggerModule *int
